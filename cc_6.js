@@ -4,8 +4,8 @@ class employee {
         this.department = department;
     }
 
-describe() {
-    return `employee: ${this.name} | department: ${this.department}`;
+    describe() {
+        return `employee: ${this.name} | department: ${this.department}`;
     }
 }
 
